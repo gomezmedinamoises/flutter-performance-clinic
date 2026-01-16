@@ -29,12 +29,12 @@ flutter-performance-clinic/
 2. Open the printed URL, attach to the running device, and switch to the relevant tab (Performance, Memory, or Network) based on the scenario README instructions.
 3. Each README lists:
    - Steps to reproduce the issue and fix.
-   - Required GIFs (store under `docs/gifs/`), DevTools screenshots (`docs/devtools/`), and optional video recordings (`docs/videos/`).
+   - Required DevTools screenshots (`docs/devtools/`), device screenshots (`docs/screenshots/`) and optional video recordings (`docs/videos/`).
    - Placeholder metrics to replace with your actual numbers.
 4. Update `METRICS.md` once you have numbers and link to the new assets.
 
 ### Suggested capture workflow
-- **Bad pass**: Clear DevTools timeline, start recording, perform the action that causes jank/leak, stop recording, export PNG/GIF, and save it with the naming convention from the README (`list_bad.gif`, etc.).
+- **Bad pass**: Clear DevTools timeline, start recording, perform the action that causes jank/leak, stop recording, take evidence, and save it with the naming convention from the README (`list_bad.gif`, etc.).
 - **Good pass**: Repeat after switching to the optimized tab to highlight the improvement.
 - Use `QuickTime`/`OBS` or `adb screenrecord` to capture video demos if desired; place them under `docs/videos/` and reference them in the scenario README or main README.
 
@@ -45,7 +45,7 @@ flutter-performance-clinic/
 - Extend `METRICS.md` with your new measurements.
 
 ## Deliverables checklist
-- [ ] GIFs for each bad/good pair showing jank versus smooth behavior.
 - [ ] DevTools screenshots (Performance, Memory, Network as applicable).
+- [ ] Device screenshots (UI impact).
 - [ ] Concrete metrics like `Reduced frame time from 45 ms to 8 ms` documented per scenario.
 - [ ] Optional video walkthrough stored in `docs/videos/` and linked from the root README.

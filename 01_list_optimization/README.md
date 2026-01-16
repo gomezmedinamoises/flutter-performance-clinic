@@ -121,6 +121,8 @@ ListView.builder(
 - Visible stuttering and frame drops
 - Unresponsive feel when flinging
 
+![Bad Example UI evidence](../docs/devtools/screenshots/01-list-optimization-bad-example-UI-device.png)
+
 ---
 
 ## Why This Matters

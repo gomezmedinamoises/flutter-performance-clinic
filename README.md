@@ -1,6 +1,6 @@
 # Flutter Performance Clinic
 
-Hands-on clinic that reproduces common Flutter performance issues (janky lists, memory leaks, rebuild storms, image caching, and network pagination) plus their fixes. Each scenario ships with runnable code (`lib/main.dart` menu) and documentation to record metrics, GIFs, and DevTools screenshots.
+Hands-on clinic that reproduces common Flutter performance issues (janky lists, memory leaks, rebuild storms, image caching, and network pagination) plus their fixes. Each scenario ships with runnable code (`lib/main.dart` menu) and documentation to record metrics and device/DevTools screenshots.
 
 ```
 flutter-performance-clinic/

@@ -11,7 +11,7 @@ flutter-performance-clinic/
 ├── 05_network_lists/
 ├── docs/
 │   ├── devtools/          # Drop PNGs from DevTools tabs
-│   ├── gifs/              # Add bad/good GIF loops
+│   ├── screenshots/       # Add bad/good device screenshots
 │   └── videos/            # Optional longer walkthroughs
 ├── lib/                   # Flutter app (menu + demos)
 ├── METRICS.md             # Cross-scenario summary table
